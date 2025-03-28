@@ -50,7 +50,7 @@ export default function UploadImage() {
 
     try {
       // Send the image URL to the new backend endpoint for prediction
-      const result: Response = await fetch("https://0bcb-35-245-168-131.ngrok-free.app/predict_from_url", {
+      const result: Response = await fetch("https://ea94-35-231-68-211.ngrok-free.app/predict_from_url", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
